@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Filehandlingutility {
 
-    // method to write to file ,here we will use try-catch to catch the error when occured
+    // method to write to file
     public static void writeFile(String fileName, String content) {
         try {
             FileWriter writer = new FileWriter(fileName);
@@ -16,7 +16,7 @@ public class Filehandlingutility {
         }
     }
 
-    // method to read file ,here we will use try-catch to catch the error when occured
+    // method to read file
     public static void readFile(String fileName) {
         try {
             File file = new File(fileName);
@@ -32,7 +32,7 @@ public class Filehandlingutility {
         }
     }
 
-    // method to modify file (replace word) ,here we will use try-catch to catch the error when occured
+    // method to modify file (replace word)
     public static void modifyFile(String fileName, String oldWord, String newWord) {
         try {
             File file = new File(fileName);
@@ -70,7 +70,7 @@ public class Filehandlingutility {
             System.out.print("enter your choice: ");
             choice = input.nextInt();
             input.nextLine(); // clear buffer
-            //use the switvh case to give option to the user on which option to perform
+
             switch (choice) {
                 case 1:
                     System.out.print("enter content to write: ");
