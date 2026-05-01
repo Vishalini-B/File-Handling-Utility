@@ -146,3 +146,9 @@ the updated content back to the same file using `FileWriter`.
 **Vishalini B**
 B.Tech — Third Year
 Java Programming | File Handling Utility Project
+
+## Output
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/3ebf875d-7c92-4350-ad52-86698e6e1a29" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/db355807-7e30-48e0-9cf7-a045525704be" />
